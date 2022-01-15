@@ -917,7 +917,7 @@ scores = scores[:len(scores)-1]
 
 ```go
 func main() {
-  scores := []int{1,2,3,4,5}
+  scores := []int{1,2,3,4,5} // Массив в примере отсортирован, что немного путает
   scores = removeAtIndex(scores, 2)
   fmt.Println(scores)
 }
